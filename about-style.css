@@ -58,7 +58,7 @@ header {
 }
 /* logo的字型,顏色,位置設定 */
 
-.Home {
+.About {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -72,7 +72,7 @@ header {
 }
 /* 首頁的背景大小,位置設定 */
 
-.Home-Content {
+.About-Content {
     position: relative;
     max-width: 700px;
     height: 400px;
@@ -91,7 +91,7 @@ header {
 }
 /* 首頁內容位置,顏色,間距大小,陰影效果設定 */
 
-.Home-Content p {
+.About-Content p {
     padding: 10px 15px 25px;
     font-size: 1.5em;
     text-decoration: none;
@@ -100,26 +100,33 @@ header {
 }
 /* 首頁文字內容文字大小,邊界設定 */
 
-.Home-Content a {
-    padding: 8px 7px;
-    border-radius: 8px;
-    border: 2px solid rgba(255, 255, 255, .5);
-    font-weight: 100;
-    font-size: 1.5em;
+#About-link a {
+    position: relative;
+    right: 10px;
+    color: #ffffff;
+    margin: 100;
+    z-index: 99;
+    font-size: 1.3em;
     text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
     color: inherit;
-    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid transparent;
 } 
 /* 首頁連結文字大小,邊界,邊界顏色,粗細設定 */
 
-.Home-Content a:hover {
+.About-Content a:hover {
     text-shadow: 10px 10px 10px;
+    padding: 10px;
+    border: #ffffff;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 15px;
 }
 /* 首頁滑鼠一上連結效果 */
 
-.Home h2 {
+.About h2 {
     font-size: 2.2em;
     padding: 10px 15px 25px;
 }
 /* 首頁標題大小 */
-
