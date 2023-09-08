@@ -1,0 +1,192 @@
+
+/* */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poping", sans-serif;
+} 
+/* 總體字型及其他設定 */
+
+header {
+    color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 70px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+/* 導覽列的位置,顏色設定 */
+
+.navigation a{
+    position: relative;
+    right: 10px;
+    color: #ffffff;
+    margin: 100;
+    z-index: 99;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    color: inherit;
+    padding: 10px;
+    border: 2px solid transparent;
+    transition: .3s;
+    font-weight:bold;
+} 
+/* 導覽列的連結設定 */
+
+.navigation a:hover {
+    padding: 10px;
+    border: #ffffff;
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 15px;
+}
+/* 導覽列連結一上去會有的框框效果 */
+
+.Logo {
+    font-size: 2.5em;
+    color: #000000;
+    user-select: none;
+    align-items: center;
+    justify-self: start;
+    top: 50%;
+    font-weight:bold;
+}
+/* logo的字型,顏色,位置設定 */
+
+.Home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(/new-my-web/imgaes/deogwms-39cff84e-f73d-4245-9eda-a762024bff99.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: local;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    
+}
+/* 首頁的背景大小,位置設定 */
+
+.Home-Content {
+    position: absolute;
+    max-width: auto;
+    height: auto;
+    color: #000000;
+    letter-spacing: .1em;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(236, 236, 236, 0.76);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 首頁內容位置,顏色,間距大小,陰影效果設定 */
+
+.Home-Content p {
+    padding: 0.1em 0.5em 0.5em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    font-weight:bold;
+
+}
+/* 首頁文字內容文字大小,邊界設定 */
+
+.Home-Content a {
+    padding: 8px 7px;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0);
+    font-weight: 100;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    font-weight:bold;
+    transition: .3s;
+
+} 
+/* 首頁連結文字大小,邊界,邊界顏色,粗細設定 */
+
+.Home-Content a:hover {
+    text-shadow: 10px 10px 10px;
+    overflow: hidden;
+}
+/* 首頁滑鼠一上連結效果 */
+
+.Home h2,.Home h3 {
+    font-size: 2.2em;
+    font-weight:bold;
+    padding: 25px 15px 10px;
+}
+/* 首頁標題大小 */
+
+.About_section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.About_Content {
+    background: aqua;
+    max-width: 600px;
+
+}
+
+.About_Content p,a{
+    padding: 0.1em 0.5em 0.5em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: inherit;
+    font-weight:bold;
+}
+
+.About h2,.About h3 {
+    font-size: 2.2em;
+    font-weight:bold;
+    padding: 25px 15px 10px;
+}
+
+/* About的內容 */
+
+.Hobbit_section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.Hobbit_Content {
+    background: aqua;
+    max-width: 600px;
+
+}
+
+.Hobbit_Content p,a{
+    padding: 0.1em 0.5em 0.5em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: inherit;
+    font-weight:bold;
+}
+
+.Hobbit h2,.Hobbit h3 {
+    font-size: 2.2em;
+    font-weight:bold;
+    padding: 25px 15px 10px;
+}
